@@ -14,11 +14,35 @@ const data = [
   {
     title: 'Title 4',
   },
+  {
+    title: 'Title 1',
+  },
+  {
+    title: 'Title 2',
+  },
+  {
+    title: 'Title 3',
+  },
+  {
+    title: 'Title 4',
+  },
+  {
+    title: 'Title 1',
+  },
+  {
+    title: 'Title 2',
+  },
+  {
+    title: 'Title 3',
+  },
+  {
+    title: 'Title 4',
+  },
 ];
 
 const App: React.FC = () => (
   <List
-    grid={{ gutter: 16, column: 4 }}
+    grid={{ gutter: 16, column: 12 }}
     dataSource={data}
     renderItem={(item) => (
       <List.Item>
